@@ -1,73 +1,118 @@
-# Welcome to your Lovable project
+# MUMBAIkar
 
-## Project info
+AI-Powered Urban Infrastructure Monitoring Dashboard (Frontend-Only)
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## Overview
 
-There are several ways of editing your application.
+**MUMBAIkar** is a frontend-driven Smart City Intelligence Platform designed for Mumbai.
+It provides a centralized, interactive dashboard for monitoring urban infrastructure, environmental conditions, and public transport performance.
 
-**Use Lovable**
+The system simulates real-time infrastructure analytics using dynamic mock data and rule-based predictive logic — without backend dependencies.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Key Features
 
-**Use your preferred IDE**
+### Interactive Mumbai Map
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* Geographically accurate (OpenStreetMap-based)
+* Light minimalist styling
+* Layer-based overlay system
+* Dynamic infrastructure markers
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Infrastructure Monitoring
 
-Follow these steps:
+* Dam water level & overflow risk prediction
+* Bridge structural health monitoring
+* Transformer load & failure probability tracking
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Environmental Intelligence
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* AQI heatmap
+* Area-based pollution breakdown
+* Weather overlays
+* Traffic intensity visualization
 
-# Step 3: Install the necessary dependencies.
-npm i
+### AI-Driven Insights (Frontend Logic)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+* Risk severity calculation
+* Confidence meter
+* Time-to-impact estimation
+* Automatic dashboard state updates
+
+### Role-Based System
+
+* Citizen (view-focused)
+* Government Officer (department-based analytics)
+* Admin (city-wide oversight)
+
+---
+
+## Tech Stack
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* shadcn/ui
+* MapLibre / Leaflet
+* Recharts / Chart.js
+* Framer Motion
+
+---
+
+## Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/Shadownix-R/Projects.git
+cd Projects/MUMBAIkar
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Development Server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will start locally with hot reloading enabled.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+MUMBAIkar/
+ ├── src/
+ │   ├── components/
+ │   ├── pages/
+ │   ├── hooks/
+ │   ├── utils/
+ ├── public/
+ ├── tailwind.config.ts
+ ├── vite.config.ts
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## Future Scope
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+* Real-time IoT sensor integration
+* Municipal API connectivity
+* Predictive ML model integration
+* Mobile-responsive deployment
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## License
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is for educational and demonstration purposes.
